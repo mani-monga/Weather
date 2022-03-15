@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather.io | HOME</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style-phone.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body  id="body" onload="myFunction()">
+    <div id="screen"><div id="loader"></div></div>
+
+    <nav class="navbar animate-bottom ">
+      <div class="navbar-header">
+        <img id="logo" src="./logo.gif" alt="">
+        <h2><em>Weather.io</em></h2>
+      </div>
+      <div class="navbar-menu">
+        <ul>
+          <li><a href="./"> Home</a></li>
+          <li><a href="https://linktr.ee/ManiMonga" target="0"> Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div class="submenu">
+      <li class="location"><a href="#"> India</a></li>
+      <li class="location"><a href="#"> Pakistan</a></li>
+      <li class="location"><a href="#"> London</a></li>
+      <li class="location"><a href="#"> Canada</a></li>
+    </div> -->
+
+    <div class="card">
+      <div  class="animate-bottom" id="cover">
+        <form class="forms" onsubmit="myfunction()">
+              <input type="search" id="form" placeholder="Enter Your Location" />
+              <button type="submit" id="btn" >Search</button>
+        </form>
+      </div>
+      <div class="weather animate-bottom" id="weather">
+        <div class="head">
+          <img
+            src="https://cdn.weatherapi.com/weather/64x64/night/296.png"
+            alt=""
+            id="icon"
+          />
+          <h1 id="city"></h1>
+        </div>
+        <div class="details">
+          <strong class="temp"></strong>
+          <strong class="description"></strong>
+          <strong class="humidity">Humidity :</strong>
+          <strong class="wind">Wind Speed :</strong>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Made With &#10084; By Mani Monga &#169; @mni.monga02@gmail.com 
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
