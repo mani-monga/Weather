@@ -6,7 +6,7 @@ const wind = document.querySelector('.wind');
 const icon = document.getElementById('icon');
 const form = document.getElementById('form');
 const region = document.getElementById('city');
-// const btn = document.getElementById('btn');
+const btn = document.getElementById('button');
 
 let cityinput = "london";
 // function myfunction(){
@@ -15,7 +15,7 @@ let cityinput = "london";
 //     getgeocode(cityinput);
 //     console.log();
 // }
-
+if(btn){
 btn.addEventListener('click', (e) => {
     if(form.value.length == 0){
         alert('Please Type A City Name')}
@@ -26,7 +26,7 @@ btn.addEventListener('click', (e) => {
         }
         e.preventDefault()
     })
-
+}
 
 function removedata(){
     temp.innerHTML =  '' ;
@@ -80,6 +80,7 @@ function removedata(){
 }
 
 
+// Loader 
 var myVar;
 
 function myFunction() {
