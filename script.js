@@ -98,3 +98,41 @@ function loading(){
 }
 
 
+function fetchforecast(city) {
+    loading();
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=a3a68c55e4e1460ba7a51503221303&q=Haldwani&days=7&aqi=no&alerts=no`)
+    .then(response => responses.json())
+    .catch(function(error){
+        alert(error);
+        // document.getElementById('weather').style.display = "none";
+       
+   })
+   .then(data =>{
+       console.log(cityinput);
+       console.log(data);
+       if(condition.innerHTML.length > 0)
+       removedata();
+       temp.innerHTML =  data.current.temp_c + "°C" ;
+       region.innerHTML = "Weather In " + data.location.name ;
+       wind.innerHTML ="Wind : " + data.current.wind_kph + " Km/Hr";
+       humidity.innerHTML = "Humidity " + data.current.humidity + "%";
+       condition.innerHTML =  data.current.condition.text;
+       icon.src =  data.current.condition.icon ;
+       document.getElementById('weather').style.display = "block";
+
+   }
+   )
+
+}
+
+
+let currentdate = new Date();
+var dd = currentdate.getDate();
+var mm = currentdate.getMonth();
+var yy = currentdate.getFullYear();
+const tabledetails = document.getElementById("forecast");
+
+// for( i = 1 ; i<8 ; ++i){
+//     tabledetails.rows[i].cells[0].innerHTML = dd + "/" + mm + "/" + yy;
+//     ++dd;
+// }

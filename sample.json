@@ -1,0 +1,581 @@
+{
+    "location": {
+      "name": "Haldwani",
+      "region": "Uttarakhand",
+      "country": "India",
+      "lat": 29.22,
+      "lon": 79.52,
+      "tz_id": "Asia/Kolkata",
+      "localtime_epoch": 1649753996,
+      "localtime": "2022-04-12 14:29"
+    },
+    "current": {
+      "last_updated": "2022-04-12 14:15",
+      "temp_c": 40.0,
+      "temp_f": 104.0,
+      "condition": {
+        "text": "Partly cloudy",
+        "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+      },
+      "wind_kph": 12.2,
+      "humidity": 8,
+      "uv": 10.0
+    },
+    "forecast": {
+      "forecastday": [
+        {
+          "date": "2022-04-12",
+          "day": {
+            "maxtemp_c": 42.6,
+            "mintemp_c": 22.3,
+            "condition": {
+              "text": "Partly cloudy",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          "astro": {
+            
+          },
+          "hour": [
+            {
+              "condition": {
+                
+              },
+              "humidity": 10,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 14,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 13,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 10,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 10,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 7,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 7,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 7,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 13,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 13,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 13,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 14,
+              "chance_of_rain": 0
+            }
+          ]
+        },
+        {
+          "date": "2022-04-13",
+          "day": {
+            "maxtemp_c": 42.7,
+            "mintemp_c": 23.2,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          "astro": {
+            
+          },
+          "hour": [
+            {
+              "condition": {
+                
+              },
+              "humidity": 14,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 15,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 15,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 16,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 16,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 16,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 18,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 15,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 10,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 10,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 10,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 9,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 7,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 7,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 13,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 14,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 15,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 16,
+              "chance_of_rain": 0
+            }
+          ]
+        },
+        {
+          "date": "2022-04-14",
+          "day": {
+            "maxtemp_c": 42.1,
+            "mintemp_c": 21.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          "astro": {
+            
+          },
+          "hour": [
+            {
+              "condition": {
+                
+              },
+              "humidity": 17,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 17,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 18,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 18,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 18,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 20,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 22,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 20,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 15,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 12,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 11,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 10,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 9,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 8,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 9,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 15,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 19,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 23,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 25,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 25,
+              "chance_of_rain": 0
+            },
+            {
+              "condition": {
+                
+              },
+              "humidity": 24,
+              "chance_of_rain": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
